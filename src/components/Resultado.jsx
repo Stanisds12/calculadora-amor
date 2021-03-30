@@ -9,12 +9,13 @@ const Resultado = ({ nomes, handleClean }) => {
         setDados(Dados)
 
     }, []);
-    var valor = Math.floor((nomes.firstNome.length + nomes.segundNome.length)/2 )
-    var sms = dados.filter(v => v.id === valor)
-    sms.map(itens => { return x = itens.msg })
-    var x
-    var casal = nomes.firstNome + " y " + nomes.segundNome 
-
+     var valor,sms,x,casal
+    if ((nomes.firstNome !== " " && nomes.segundNome !== " ") && (nomes.firstNome !== "" && nomes.segundNome !== "")) {
+        valor = Math.floor((nomes.firstNome.length + nomes.segundNome.length) / 2)
+        sms = dados.filter(v => v.id === valor)
+        sms.map(itens => { return x = itens.msg })
+        casal = nomes.firstNome + " y " + nomes.segundNome
+    }
     return (
         <div>
 
