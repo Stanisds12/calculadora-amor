@@ -4,7 +4,7 @@ export const Dados = [
     { "id": 3, "msg": "Puede dar cierto" },
     { "id": 4, "msg": "25% de que funcione" },
     { "id": 5, "msg": "Las personas dirán muchas cosas sobre vosotros pero todo dará cierto!" },
-    { "id": 6, "msg": " El opuesto O se atraen y eso  puede ser una buena señal" },
+    { "id": 6, "msg": " Los opuestos se atraen y eso  puede ser una buena señal" },
     { "id": 7, "msg": "No insista en algo que no va a funcionar" },
     { "id": 8, "msg": "Eso si va a funcionar. Almas gemelas" },
     { "id": 9, "msg": "Dios tiene a alguien mejor..." },
